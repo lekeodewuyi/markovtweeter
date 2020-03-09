@@ -2,7 +2,7 @@
 
 This is a C++ program that generates tweets using the style of an existing source text file.
 
-Clone this repository to your local machine or run using an online IDE (e.g. [repl.it](https://repl.it/~){:target="_blank"}).
+Clone this repository to your local machine or run using an online IDE (e.g. [repl.it](https://repl.it/~)).
 
 To run the program on a local or cloud-based machine:
 
