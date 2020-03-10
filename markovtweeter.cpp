@@ -154,13 +154,13 @@ void printTweet(){
         }
     }
     cout << tweet << endl;
-    cout << "[" << tweet.length() << " characters]" << endl;
+    cout << "- this tweet has " << tweet.length() << " characters" << endl;
 }
 
 
 void generateTweets(){
     int numberOfTweets;
-    cout << "\nHow many tweets will you like to generate?\n" << endl;
+    cout << "\nHow many tweets will you like to generate? (input a number between 1 and any value really)\n-you can generate 1000000 tweets just for kicks if you feel your computer has the computing power to do so.\n" << endl;
     cin >> numberOfTweets;
     while((cin.fail()) || (numberOfTweets == 0)) {
         cout << "Error: Please enter a valid [non-zero] number." << endl;
@@ -186,13 +186,13 @@ int main(){
 
     cout << "\nHelp:\n1. This program generates tweets by using words from a source text file." << endl;
     cout << "2. Make sure your source text file is in the same directory as the executable." << endl;
-    cout << "3. To run the program, input the name of your text file e.g. 'helloWorld.txt'- without the quotes.\n" << endl;
+    cout << "3. To run the program, input the name of your text file e.g. 'usconst.txt'- without the quotes.\n" << endl;
     cout << "p.s. this program is actually able to parse just about any input file, so you could try parsing non-text files just for kicks and see the weird tweets you're able to generate.\n" << endl;
-    cout << "Type the name of your source text file below and press enter (e.g. helloWorld.txt):\n" << endl;
+    cout << "Type the name of your source text file below and press enter (e.g. usconst.txt):\n" << endl;
     cin >> textFile;
 
     cout << "\nParsing " << textFile << " ...\n" << endl;
-    cout << "Note: If your file is VERYY large, this might take a while," << endl;
+    cout << "Note: If your file is VERYYY large, this might take a while," << endl;
     cout << "don't panic, you'll be notified once parsing is complete.\n" << endl;
 
     if(parseInputFile(textFile)){
