@@ -13,4 +13,4 @@ To run the program on a local or cloud-based machine:
  
 Once you follow the above instructions, you'll find the next steps very intuitive. There are more information within the program to guide you.
 
-The US constitutuopn is included in the project folder to use a source input file.([usconst.txt](https://github.com/lekeodewuyi/markovtweeter/blob/master/usconst.txt))
+The US constitution is included in the project folder to use a source input file.([usconst.txt](https://github.com/lekeodewuyi/markovtweeter/blob/master/usconst.txt))
